@@ -19,8 +19,8 @@
  */
 
 const HDWalletProvider = require('@truffle/hdwallet-provider');
-const mnemonic = "rude welcome venue guide choice negative fortune category rule shift caution faith"
-const ethapi = "P8EXPY4GS3M4EYFT1F8Y5W6GSX1IHPE7EH"
+const mnemonic = "word word word word word word word word word word word word"
+const ethapi = "xxx"
 require('dotenv').config();
 // const fs = require('fs');
 // const mnemonic = fs.readFileSync(".secret").toString().trim();
@@ -28,7 +28,7 @@ require('dotenv').config();
 module.exports = {
   networks: {
     rinkeby: {
-      provider: () => new HDWalletProvider(mnemonic, `wss://rinkeby.infura.io/ws/v3/6dcc2747537e4d679e3905bbb445bdce`),
+      provider: () => new HDWalletProvider(mnemonic, `wss://rinkeby.infura.io/ws/v3/xxx`),
 
       network_id: 4
     }
